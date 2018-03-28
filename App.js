@@ -13,15 +13,16 @@ import Register from './screen/Register';
 import Home from './screen/Home';
 
 const Stack = StackNavigator({
+  Home: {
+    screen: Home
+  },
   Login: {
     screen: Login
   },
   Register: {
     screen: Register
   },
-  Home: {
-    screen: Home
-  },
+  
 
 }, {headerMode: 'false'});
 
